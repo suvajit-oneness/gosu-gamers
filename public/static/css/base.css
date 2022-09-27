@@ -1,0 +1,36 @@
+html body{
+    height: 100%;
+
+}
+
+.logo:img{
+    width: 1%;
+    height: 20%;
+}
+
+.banner{
+    width:100%;
+    margin-right: 20%;
+    margin-left: 0%;
+object-fit: cover;
+}
+
+.contain{
+margin-bottom: 2%;
+}
+
+.contain .col{
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 5%;
+}
+
+.contain .card{
+margin-top: 1%;
+margin-bottom: 5%;
+}
+
+.lead:p{
+    font-size:50px;
+    style=font-family:courier;
+}

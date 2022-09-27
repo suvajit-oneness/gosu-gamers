@@ -1,0 +1,64 @@
+.top-buffer-fk-20 { margin-top:20px; }
+
+.top-buffer-fk-50 { margin-top:50px; }
+
+.top-buffer-fk-100 { margin-top:100px; }
+
+.text-white-fk { color: #ffffff; }
+
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+
+/*.navbar-brand-fk {*/
+/*    margin-top: -55px;*/
+/*}*/
+
+/*.navbar-brand img {*/
+/*    max-width: 160px;*/
+/*}*/
+
+.upadate_field select, .upadate_field select:focus {
+    height: 55px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.upadate_field select option {
+    height: 55px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    background: #434565;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+/*Coupon code*/
+.coupon-fk {
+    border: 5px dashed #FF0000FF;
+    border-radius: 12px;
+    box-shadow: 5px 8px 10px #d6d5d533
+}
+
+.coupon-code-fk:hover {
+    background: green;
+    color: #fff;
+    cursor: pointer
+}
+
+
+/*Banner area*/
+.banner__area_full_height_fk {
+    height: auto !important;
+}

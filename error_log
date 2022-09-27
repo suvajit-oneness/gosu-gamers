@@ -1,0 +1,198 @@
+[02-Sep-2022 19:52:00 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[02-Sep-2022 19:52:00 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[02-Sep-2022 19:53:06 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[02-Sep-2022 19:53:06 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[02-Sep-2022 19:53:34 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[02-Sep-2022 19:53:34 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[21-Sep-2022 19:50:08 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[21-Sep-2022 19:50:08 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[21-Sep-2022 20:06:58 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[21-Sep-2022 20:06:58 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/letsgamenow/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[23-Sep-2022 12:12:06 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
+[23-Sep-2022 12:12:06 Asia/kolkata] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php:871
+Stack trace:
+#0 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Method Reflecti...', '/home1/demo9dtx...', 871)
+#1 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(834): Illuminate\Container\Container->resolveDependencies(Array)
+#2 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#3 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#7 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(776): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(98): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#11 /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(134): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#13 {main}
+  thrown in /home1/demo9dtx/public_html/laravel-only/gosugamers/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 871
